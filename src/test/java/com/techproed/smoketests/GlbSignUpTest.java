@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
 
 public class GlbSignUpTest {
 
-    @Test
+    @Test( groups = "glbtrader")
+
     public void test(){
         /*
          * 1. Adım : https://www.glbtrader.com/register-verified.html adresine gidelim
